@@ -1,0 +1,10 @@
+   15  curl -o https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   16  curl -o Wilders.csv https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   17  grep PHP Wilders.csv > php_france_2019.csv
+   18  grep "Toulouse;JavaScript" Wilders.csv > Toulouse.csv
+   19  grep JavaScript Wilders.csv > JavaScript.csv
+   20  grep Toulouse JavaScript.csv > Toulouse.csv
+   21  grep Biarritz JavaScript.csv > Biarritz.csv
+   22  cat Toulouse.csv Biarritz.csv | sort -u > javascript_biarritz_toulouse.csv
+   23  history
+   24  history | tail > history.txt
