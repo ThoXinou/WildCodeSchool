@@ -8,3 +8,12 @@
    22  cat Toulouse.csv Biarritz.csv | sort -u > javascript_biarritz_toulouse.csv
    23  history
    24  history | tail > history.txt
+
+Suite à l'erreur lors de l'upload du fichier php_france_2019.csv : 
+
+    7  cd
+    8  cd Desktop/
+    9  cd Wild\ Code\ School/
+   10  grep PHP 2019.csv > PHP.csv
+   11  grep France PHP.csv > php_france_2019.csv
+   12  history
